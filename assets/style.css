@@ -1,11 +1,11 @@
+* {
+  background: #f8f9fa;
+}
+
 .navbar-brand {
   font-size: 32px;
 }
 
-#karya {
-  height: 80vh;
-}
-
 #contact {
-  height: 20vh;
+  margin-top: 20px;
 }

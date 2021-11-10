@@ -19,6 +19,7 @@
     <title>My Portfolio</title>
   </head>
   <body>
+    <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#"
@@ -43,14 +44,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#karya">Karya</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
           </ul>
         </div>
       </div>
     </nav>
-    <section
+    </header>
+    <main
       class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
     >
       <div class="container">
@@ -70,13 +69,15 @@
         </div>
       </div>
     </section>
-    <section id="karya">
+
+
+    <main id="karya">
       <div class="container">
         <h1 class="text-center mt-3">Karya</h1>
         </div>
       <div class="container">
       <div class="row mt-3">
-          <div class="col">
+          <div class="col-md-6">
           <div class="card mb-3" style="max-width: 540px">
             <div class="row g-0">
               <div class="col-md-4">
@@ -180,21 +181,21 @@
     <a href="http://github.com/farizmilzam32">and many more....</a>
       </div>
     </div>
-    </section>
-
-    <footer id="contact" class="bg-dark">
-      <div class="container">
-        <h1 class="text-center text-white">Let's Talk</h1>
-        <div class="row">
-          <div class="col text-white">
-      <p>Every project start with chat. I'm happy if you can start the conversation and will happy if we can discuss your project</p>
+  </main>
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="text-muted">© 2021 Company, Inc</span>
     </div>
-    <div class="col text-white">
-      <h4>Email : fariz.milzamh17@gmail.com</h3>
-      <h4>Phone : 085159833931</h3>
-    </div>
-    </div>
-  </div>
-    </footer>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a href="https://github.com/farizmilzam32/"><img src="https://img.icons8.com/material-outlined/24/000000/github.png"/></a></li>
+      <li class="ms-3"><a href="https://www.linkedin.com/in/fariz-milzam-a19ba6184/"><img src="https://img.icons8.com/material-outlined/24/000000/linkedin--v1.png"/></a></li>
+      <li class="ms-3"><a href="mailto:fariz.milzamh17@gmail.com"><img src="https://img.icons8.com/material-outlined/24/000000/gmail-new.png"/></a></li>
+    </ul>
+  </footer>
+</div>
   </body>
 </html>
